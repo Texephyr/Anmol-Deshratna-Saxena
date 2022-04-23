@@ -1,0 +1,163 @@
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1042%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%2332325d'%3e%3c/rect%3e%3ccircle r='45.39' cx='551.89' cy='97.56' fill='url(%23SvgjsLinearGradient1043)'%3e%3c/circle%3e%3ccircle r='54.985' cx='405.06' cy='518.26' fill='url(%23SvgjsLinearGradient1044)'%3e%3c/circle%3e%3ccircle r='46.735' cx='884.45' cy='553.24' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/circle%3e%3ccircle r='55.465' cx='586.51' cy='260.38' fill='url(%23SvgjsLinearGradient1046)'%3e%3c/circle%3e%3ccircle r='25.95' cx='66.45' cy='61.15' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='14.555' cx='427.75' cy='308.08' fill='url(%23SvgjsLinearGradient1047)'%3e%3c/circle%3e%3ccircle r='14.07' cx='182.95' cy='36.89' fill='url(%23SvgjsLinearGradient1048)'%3e%3c/circle%3e%3ccircle r='29.58' cx='1242.53' cy='3.2' fill='url(%23SvgjsLinearGradient1049)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1042'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='461.11' y1='97.56' x2='642.6700000000001' y2='97.56' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1043'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='295.09000000000003' y1='518.26' x2='515.03' y2='518.26' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1044'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='790.98' y1='553.24' x2='977.9200000000001' y2='553.24' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1045'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='475.58' y1='260.38' x2='697.44' y2='260.38' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1046'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='398.64' y1='308.08' x2='456.86' y2='308.08' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1047'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='154.81' y1='36.89' x2='211.09' y2='36.89' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1048'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1183.37' y1='3.200000000000003' x2='1301.6899999999998' y2='3.200000000000003' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1049'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 0.5px;
+    
+}
+
+.showImg {
+    height: 85%;
+    width: 100%;
+}
+
+.heading {
+    color: White;
+}
+
+h1 {
+    font-family: 'Updock', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+        #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+        #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+}
+h2{
+    font-family: 'Updock', cursive;
+    border: 6px solid whitesmoke;
+    text-align:center;
+    color: white;
+    font-size: 40px;
+}
+.aboutTxt {
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* CAST CARDS */
+
+.card {
+    width: 190px;
+    height: 254px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #fff;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all 0.4s;
+}
+
+#one::before {
+    content: "- as Kasumi Miwa (voice)";
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+#two::before {
+    content: "- Shoko Ieiri (voice)";
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+#three::before {
+    content: "- as Rika Orimoto (voice)";
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+#four::before {
+    content: "- as Raru (voice)";
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+#five::before {
+    content: "- as Mai Zen'in (voice)";
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+#six::before {
+    content: "- Aoi Todo (voice)";
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.card div {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.4s;
+    background-color: #fff;
+}
+
+.card:hover div {
+    transform: translateY(-60px);
+}
+
+.castImg {
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+}
+
+.cast {
+    display: flex;
+    /* grid-template-columns: repeat(3, 5fr);
+    grid-template-rows: repeat(2, 1fr); */
+    grid-column-gap: 5px;
+    grid-row-gap: 25px;
+}
+
+.rating {
+    text-align: center;
+}
+/* table */
+table, th, td {
+    border: 1px solid whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* RESPONSIVENESS */
